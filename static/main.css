@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex ;
+  align-items: center;
+  justify-content: space-between ;
+  background-color: #36544f;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-brand{
+  color: #0dd0d7 !important;
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: rgb(185, 185, 185);
+}
+
+body {
+  background-color: #30261c;
+}
+
+h1 {
+  color: #0b8185;
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+
+h5 {
+  color: #0dd0d7;
+  font-weight: lighter;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container > .btnCard {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.food-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #36544f;
+  color: #fff;
+  min-height: 20em;
+  
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fff;
+  color: #36544f;
+  border: #0b8185 1px solid;
+  transition: ease-in-out .5s;
+}
+
+.btn:hover {
+  border: #0b8185 1px solid;
+  background-color: #0b8185;
+  color: #fff;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: #36544f;
+}
+
+.modal-header > h5 {
+  color: #fff;
+}
+
+.form-control {
+  color: #486e68;
+  border: #36544f 2px solid;
+}
