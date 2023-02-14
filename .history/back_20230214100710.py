@@ -29,11 +29,8 @@ def getDados():
 
 @app.route("/projetoCafeteria/<id>", methods = ["DELETE"])
 def deleteFood(id):
-    idFood = request.form['id']
-    for foods in food:
-        if idFood == food["id"]:
-            return food
-    return {"message":"Doesn't exist"}, 404
+    request.form['id']
+    del food[]
         
 
 if __name__ == '__main__':
