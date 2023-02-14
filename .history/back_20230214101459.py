@@ -33,11 +33,8 @@ def deleteFood(id):
     for foods in food:
         if idFood == food["id"]:
             dados.remove(food)
-            return json.dumps(food)
-        else:
-            return {"message":"Doesn't exist"}, 404
-            
-    return json.dumps(dados)
+    return {"message":"Doesn't exist"}, 404
+        
 
 if __name__ == '__main__':
     app.run()

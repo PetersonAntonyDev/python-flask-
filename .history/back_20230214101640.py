@@ -36,7 +36,6 @@ def deleteFood(id):
             return json.dumps(food)
         else:
             return {"message":"Doesn't exist"}, 404
-            
     return json.dumps(dados)
 
 if __name__ == '__main__':
